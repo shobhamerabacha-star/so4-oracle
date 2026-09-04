@@ -13,8 +13,6 @@ oracle/build/
 oracle_vars.md
 
 # ── Generic env files ─────────────────────────────────────────────────────────
-.env
-.env.*
 !.env.example
 
 # ── Frontend dependencies & build output ──────────────────────────────────────
@@ -26,7 +24,6 @@ out/
 # ── OS / editor clutter ───────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -38,3 +35,4 @@ scripts/.deploy-testnet-state
 /target_local
 oracle/target_local
 fix.md
+config.bat
